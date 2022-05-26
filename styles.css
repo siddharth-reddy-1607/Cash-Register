@@ -1,0 +1,68 @@
+body
+{
+    margin:0;
+    text-align: center;
+}
+.container
+{
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+}
+
+#bill-amount-label
+{
+    padding: 0.5rem;
+}
+
+#bill-amount
+{
+    min-width:200px;
+    max-width: 225px;
+    margin: auto;
+}
+
+#cash-given-label
+{
+    padding: 0.5rem;
+}
+
+#cash-given
+{
+    min-width: 200px;
+    max-width: 225px;
+    margin: auto;
+}
+
+#Check
+{
+    max-width: 200px;
+    margin: auto;
+}
+
+#button-spacer
+{
+    padding:1rem;
+}
+
+table,th,td
+{
+    border: 1px solid black;
+    margin: auto;
+}
+
+table
+{
+    table-layout: fixed;
+}
+
+tr,td
+{
+    min-width:20px;
+}
