@@ -8,18 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>Cash Register</header>
     <div class="container">
-        <h2>Cash Register</h2>
         <p>Enter the bill amount and the cash provided at the counter to recieve change in minimum number of notes </p>
+       
         <label id="bill-amount-label" for="bill-amount">Bill Amount</label>
         <input type="number" id="bill-amount" placeholder="Enter bill amount here">
+        <button id="next-button">Next</button>
+
+        <div id="cash-display" class="container">
         <label id="cash-given-label" for="cash-given">Cash Provided</label>
         <input type="number" id="cash-given" placeholder="Enter the cash provide here">
-        <div id="button-spacer"><button id="Check">Check</button></div>
+        <button id="Check">Check</button>
+        </div>
+        
         <div id="error-msg"></div>
+
+        <div id="table-display">
         <caption>Return Change</caption>
         <table>
-            <!-- <tr> -->
             <tr>
                 <th>Notes</th>
                 <td>2000</td>
@@ -41,7 +48,10 @@
                 <td class="no-of-notes">0</td>
             </tr>
         </table>
+        </div>
+
     </div>
+    
     <script src="index.js"></script>
 </body>
 </html>

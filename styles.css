@@ -1,13 +1,28 @@
-body
+body,html
 {
     margin:0;
     text-align: center;
+    background-color: #ffe3a9;;
 }
+
+header
+{
+    background-color: #14365d;
+    color: aliceblue;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
 .container
 {
     display:flex;
     flex-direction:column;
     margin: auto;
+    height: 70vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
 }
 
 input::-webkit-outer-spin-button,
@@ -25,7 +40,14 @@ input::-webkit-inner-spin-button
 {
     min-width:200px;
     max-width: 225px;
-    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#next-button
+{
+    max-width: 200px;
+    margin-bottom: 1rem;
 }
 
 #cash-given-label
@@ -37,24 +59,27 @@ input::-webkit-inner-spin-button
 {
     min-width: 200px;
     max-width: 225px;
-    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 #Check
 {
     max-width: 200px;
-    margin: auto;
+    margin-bottom: 1rem;
 }
 
-#button-spacer
+#error-msg
 {
-    padding:1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 table,th,td
 {
     border: 1px solid black;
     margin: auto;
+    font-size: 1.25rem;
 }
 
 table
