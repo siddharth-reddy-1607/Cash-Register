@@ -16,6 +16,7 @@ function clickHandlerNext()
 {
     errorMsg.style.display="none";
     cashDisplay.style.display="none";
+    tableDisplay.style.display="none";
     if(billAmount.value <= 0)
     {
         errorMsg.innerText="The bill amount must be positve!";
